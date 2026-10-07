@@ -1,0 +1,72 @@
+.profile-card {
+    background: lightcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 12px;
+    width: 100%;
+}
+body {
+    margin: 0;
+}
+
+.profile-card img {
+    width: 250px;
+    height: 300px;
+}
+
+.social-media > a {
+    color: darkred;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1px;
+    align-items: flex-start;
+}
+
+button[type="button"] {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 25px;
+}
+a:first-child {
+    background: black;
+    color: white;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+
+button:last-child {
+    background: gray;
+    color: #000;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 20px;
+
+
+}
+
+button:hover {
+    background: red;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    background: pink;
+}
+
+#message {
+    color: #fff;
+    background: lightblue;
+
+}
+
+
